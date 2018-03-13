@@ -1,0 +1,24 @@
+{
+    "name": "ltsochev/eloquent-devices",
+    "description": "Allows \"remember me\" tokens to span across multiple devices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lachezar Tsochev",
+            "email": "ltsochev@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/auth": "^5.5",
+        "illuminate/container": "^5.5",
+        "illuminate/contracts": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ltsochev\\Auth\\": "src/"
+        }
+    }
+}
